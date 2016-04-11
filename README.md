@@ -3,9 +3,9 @@ This project show bug in default configuration of wildfly in session distribuabl
 
 
 ## Installation
-1) Download wildfly from http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.zip
-2) mvn clean install
-3) deploy war and run wildfly in standalone-full-ha mode,
+1. Download wildfly from http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.zip
+2. mvn clean install
+3. deploy war and run wildfly in standalone-full-ha mode,
 ./standalone --server-config=standalone-full-ha.xml
 
 ## Usage
